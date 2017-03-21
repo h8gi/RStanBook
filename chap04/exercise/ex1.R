@@ -2,7 +2,7 @@ library(ggplot2)
 
 source('generate-data.R')
 
-d1 <- data.frame(group=1, Y=Y1)
+d1 <- data.frame(group=1, Y=Y1) 
 d2 <- data.frame(group=2, Y=Y2)
 d <- rbind(d1, d2)
 d$group <- as.factor(d$group)
