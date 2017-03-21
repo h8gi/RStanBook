@@ -17,8 +17,16 @@ data = [Dict("N1" => N1, "N2" => N2, "Y1" => Y1, "Y2" => Y2)]
 res1 = stan(stanmodel1, data)
 describe(res1)
 
-# ex4
+# ex4, Prob[mu1 < mu2]
 mu1sim = res1.value[:,findfirst(res1.names, "mu1"),:] |> vec
 mu2sim = res1.value[:,findfirst(res1.names, "mu2"),:] |> vec
-ex4prob = count(x->x, mu1sim .< mu2sim) / length(mu1sim)
+ex4prob = mean(mu1sim .< mu2sim)
+
+# ex5, sigma1, sigma2
+stanmodel2 = Stanmodel(name="ex5", model=readstring("exercise5.stan"))
+res2 = stan(stanmodel2, data)
+mu1sim2 = res2.value[:,findfirst(res1.names, "mu1"),:] |> vec
+mu2sim2 = res2.value[:,findfirst(res1.names, "mu2"),:] |> vec
+ex5prob = mean(mu1sim2 .< mu2sim2)
+
 
