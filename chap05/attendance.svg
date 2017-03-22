@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:gadfly="http://www.gadflyjl.org/ns"
+     version="1.2"
+     width="152.4mm" height="101.6mm" viewBox="0 0 152.4 101.6"
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.3"
+     font-size="3.88"
+>
+<g class="plotroot xscalable yscalable" id="img-089d2c23-1">
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-089d2c23-2">
+    <text x="82.97" y="90.84" text-anchor="middle" dy="0.6em">A</text>
+  </g>
+  <g class="guide xlabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-089d2c23-3">
+    <text x="20.53" y="84.79" text-anchor="middle" dy="0.6em">-0.5</text>
+    <text x="51.75" y="84.79" text-anchor="middle" dy="0.6em">0.0</text>
+    <text x="82.97" y="84.79" text-anchor="middle" dy="0.6em">0.5</text>
+    <text x="114.18" y="84.79" text-anchor="middle" dy="0.6em">1.0</text>
+    <text x="145.4" y="84.79" text-anchor="middle" dy="0.6em">1.5</text>
+  </g>
+<g clip-path="url(#img-089d2c23-4)">
+  <g id="img-089d2c23-5">
+    <g pointer-events="visible" opacity="1" fill="#000000" fill-opacity="0.000" stroke="#000000" stroke-opacity="0.000" class="guide background" id="img-089d2c23-6">
+      <rect x="18.53" y="5" width="128.87" height="78.79"/>
+    </g>
+    <g class="guide ygridlines xfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-089d2c23-7">
+      <path fill="none" d="M18.53,81.79 L 147.4 81.79"/>
+      <path fill="none" d="M18.53,63.09 L 147.4 63.09"/>
+      <path fill="none" d="M18.53,44.4 L 147.4 44.4"/>
+      <path fill="none" d="M18.53,25.7 L 147.4 25.7"/>
+      <path fill="none" d="M18.53,7 L 147.4 7"/>
+    </g>
+    <g class="guide xgridlines yfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-089d2c23-8">
+      <path fill="none" d="M20.53,5 L 20.53 83.79"/>
+      <path fill="none" d="M51.75,5 L 51.75 83.79"/>
+      <path fill="none" d="M82.97,5 L 82.97 83.79"/>
+      <path fill="none" d="M114.18,5 L 114.18 83.79"/>
+      <path fill="none" d="M145.4,5 L 145.4 83.79"/>
+    </g>
+    <g class="plotpanel" id="img-089d2c23-9">
+      <g class="geometry" stroke-width="0.3" id="img-089d2c23-10">
+        <use xlink:href="#img-089d2c23-11" x="51.75" y="62.72" stroke="#FFFFFF" fill="#00BFFF"/>
+        <use xlink:href="#img-089d2c23-11" x="51.75" y="55.99" stroke="#FFFFFF" fill="#00BFFF"/>
+        <use xlink:href="#img-089d2c23-11" x="51.75" y="13.73" stroke="#FFFFFF" fill="#00BFFF"/>
+        <use xlink:href="#img-089d2c23-11" x="51.75" y="12.61" stroke="#FFFFFF" fill="#00BFFF"/>
+        <rect x="21.03" y="30.93" width="61.43" height="10" stroke="#00BFFF" fill="#00BFFF"/>
+        <rect x="83.47" y="28.13" width="61.43" height="14.96" stroke="#00BFFF" fill="#00BFFF"/>
+        <path fill="none" d="M31.27,21.58 L 72.23 21.58" stroke="#00BFFF"/>
+        <path fill="none" d="M93.71,20.09 L 134.66 20.09" stroke="#00BFFF"/>
+        <path fill="none" d="M31.27,51.13 L 72.23 51.13" stroke="#00BFFF"/>
+        <path fill="none" d="M93.71,54.12 L 134.66 54.12" stroke="#00BFFF"/>
+        <path fill="none" d="M51.75,30.93 L 51.75 21.58" stroke="#00BFFF"/>
+        <path fill="none" d="M114.18,28.13 L 114.18 20.09" stroke="#00BFFF"/>
+        <path fill="none" d="M51.75,40.94 L 51.75 51.13" stroke="#00BFFF"/>
+        <path fill="none" d="M114.18,43.09 L 114.18 54.12" stroke="#00BFFF"/>
+        <g stroke-width="0.6" id="img-089d2c23-12">
+          <path fill="none" d="M31.27,36.73 L 72.23 36.73" stroke="#B5FFFF"/>
+          <path fill="none" d="M93.71,36.54 L 134.66 36.54" stroke="#B5FFFF"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+  <g class="guide ylabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-089d2c23-13">
+    <text x="17.53" y="81.79" text-anchor="end" dy="0.35em">0</text>
+    <text x="17.53" y="63.09" text-anchor="end" dy="0.35em">50</text>
+    <text x="17.53" y="44.4" text-anchor="end" dy="0.35em">100</text>
+    <text x="17.53" y="25.7" text-anchor="end" dy="0.35em">150</text>
+    <text x="17.53" y="7" text-anchor="end" dy="0.35em">200</text>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-089d2c23-14">
+    <text x="8.4" y="42.4" text-anchor="middle" dy="0.35em" transform="rotate(-90, 8.4, 44.4)">Score</text>
+  </g>
+</g>
+<defs>
+  <clipPath id="img-089d2c23-4">
+  <path d="M18.53,5 L 147.4 5 147.4 83.79 18.53 83.79" />
+</clipPath>
+  <g id="img-089d2c23-11">
+    <circle cx="0" cy="0" r="0.9"/>
+  </g>
+</defs>
+</svg>

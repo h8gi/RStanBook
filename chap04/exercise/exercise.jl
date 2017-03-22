@@ -1,4 +1,6 @@
 using Distributions, StatPlots, DataFrames, Stan
+cd("/Users/yagi/Projects/RStanBook/chap04/exercise")
+plotly()
 N1 = 30
 N2 = 20
 Y1 = rand(Normal(0, 5), N1)
@@ -28,5 +30,3 @@ res2 = stan(stanmodel2, data)
 mu1sim2 = res2.value[:,findfirst(res1.names, "mu1"),:] |> vec
 mu2sim2 = res2.value[:,findfirst(res1.names, "mu2"),:] |> vec
 ex5prob = mean(mu1sim2 .< mu2sim2)
-
-
