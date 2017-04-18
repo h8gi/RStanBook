@@ -15,8 +15,13 @@ def countyear(year, bc = false, wiki = "https://ja.wikipedia.org/wiki/")
   end
 end
 
-open("year.csv", "w") { |out| 
-  50000.times { |year|
+
+
+start = ARGV[0]
+finish = ARGV[1]
+
+open("#{start}-#{finish}.csv", "w") { |out| 
+  start.to_i.upto(finish.to_i) { |year|
     puts year
     out.puts year.to_s + "," + countyear(year).to_s
   }
